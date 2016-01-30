@@ -224,24 +224,15 @@ function create_config( )
     sudo_users = {67255537,93213608,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
+    about_text = [[monsterTG 
 این بات توسط اتحاد بلک هت ساخته شده است❗
 برای ساخت گپ به پی وی ادمین ها مراجعه کنید❗
 Admins
 @BLACK_HAT_ADMIN02 [Manager]
 @BLACK_HAT_ADMIN03 [Manager]
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@Blackhatchannel
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -309,13 +300,9 @@ This command will send text to [group_id]
 
 **U can use both "/" and "!" 
 
+Channel
+@blackhatchannel
 
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
 Commands list :
@@ -415,13 +402,8 @@ will return group ban list
 
 **U can use both "/" and "!" 
 
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+Channel
+@blackhatchannel
 
 ]]
   }
