@@ -227,10 +227,11 @@ function create_config( )
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-این بات توسط اتحاد بلک هت ساخته شده است
-
+این بات توسط اتحاد بلک هت ساخته شده است❗
+برای ساخت گپ به پی وی ادمین ها مراجعه کنید❗
 Admins
- [Manager]
+@BLACK_HAT_ADMIN02 [Manager]
+@BLACK_HAT_ADMIN03 [Manager]
 
 Special thanks to
 awkward_potato
