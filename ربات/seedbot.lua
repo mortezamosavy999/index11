@@ -225,8 +225,10 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[monsterTG 
-این بات توسط اتحاد بلک هت ساخته شده است❗
-برای ساخت گپ به پی وی ادمین ها مراجعه کنید❗
+advance Administration bot based on yagop/telegram-bot
+
+@MonsterTG
+
 Admins
 @BLACK_HAT_ADMIN02 [Manager]
 @BLACK_HAT_ADMIN03 [Manager]
