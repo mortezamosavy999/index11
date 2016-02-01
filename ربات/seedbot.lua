@@ -244,91 +244,109 @@ Our channels
 Realm Commands:
 
 !creategroup [Name]
+
 Create a group
 
 -------------------
 
 !createrealm [Name]
+
 Create a realm
 
 -------------------
 
 !setname [Name]
+
 Set realm name
 
 -------------------
 
 !setabout [GroupID] [Text]
+
 Set a group's about text
 
 -------------------
 
 !setrules [GroupID] [Text]
+
 Set a group's rules
 
 -------------------
 
 !lock [GroupID] [setting]
+
 Lock a group's setting
 
 -------------------
 
 !unlock [GroupID] [setting]
+
 Unock a group's setting
 
 -------------------
 
 !wholist
+
 Get a list of members in group/realm
 
 -------------------
 
 !who
+
 Get a file of members in group/realm
 
 -------------------
 
 !type
+
 Get group type
 
 -------------------
 
 !kill chat [GroupID]
+
 Kick all memebers and delete group
 
 -------------------
 
 !kill realm [RealmID]
+
 Kick all members and delete realm
 
 -------------------
 
 !addadmin [id|username]
+
 Promote an admin by id OR username *Sudo only
 
 -------------------
 
 !removeadmin [id|username]
+
 Demote an admin by id OR username *Sudo only
 
 -------------------
 
 !list groups
+
 Get a list of all groups
 
 -------------------
 
 !list realms
+
 Get a list of all realms
 
 -------------------
 
 !log
+
 Grt a logfile of current group or realm
 
 -------------------
 
 !broadcast [text]
+
 !broadcast Hello !
 Send text to all groups
 Only sudo users can run this command
@@ -336,8 +354,12 @@ Only sudo users can run this command
 -------------------
 
 !br [group_id] [text]
+
 !br 123456789 Hello !
 This command will send text to [group_id]
+
+
+
 
 
 **U can use both "/" and "!" 
@@ -348,66 +370,79 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
+
 You can also do it by reply
 
 -------------------
 
 !ban [ username|id]
+
 You can also do it by reply
 
 -------------------
 
 !unban [id]
+
 You can also do it by reply
 
 -------------------
 
 !who
+
 Members list
 
 -------------------
 
 !modlist
+
 Moderators list
 
 -------------------
 
 !promote [username]
+
 Promote someone
 
 -------------------
 
 !demote [username]
+
 Demote someone
 
 -------------------
 
 !kickme
+
 Will kick user
 
 -------------------
 
 !about
+
 Group description
 
 -------------------
 
 !setphoto
+
 Set and locks group photo
 
 -------------------
 
 !setname [name]
+
 Set group name
 
 -------------------
 
 !rules
+
 Group rules
 
 -------------------
 
 !id
+
 return group id or user id
 
 -------------------
@@ -416,87 +451,106 @@ return group id or user id
 
 -------------------
 
-!lock [member|name|bots|leave]	
+!lock [member|name|bots|leave]
+	
 Locks [member|name|bots|leaveing] 
 
 -------------------
 
 !unlock [member|name|bots|leave]
+
 Unlocks [member|name|bots|leaving]
 
 -------------------
 
 !set rules <text>
+
 Set <text> as rules
 
 -------------------
 
 !set about <text>
+
 Set <text> as about
 
 -------------------
 
 !settings
+
 Returns group settings
 
 -------------------
 
 !newlink
+
 create/revoke your group link
 
 -------------------
 
 !link
+
 returns group link
 
 -------------------
 
 !owner
+
 returns group owner id
 
 -------------------
 !setowner [id]
+
 Will set id as owner
 
 -------------------
 !setflood [value]
+
 Set [value] as flood sensitivity
 
 -------------------
 
 !stats
+
 Simple message statistics
 
 -------------------
 
 !save [value] <text>
+
 Save <text> as [value]
 
 -------------------
 
 !get [value]
+
 Returns text of [value]
 
 -------------------
 
 !clean [modlist|rules|about]
+
 Will clear [modlist|rules|about] and set it to nil
 
 -------------------
 
 !res [username]
+
 returns user id
 "!res @username"
 
 -------------------
 
 !log
+
 will return group logs
 
 -------------------
 
 !banlist
+
 will return group ban list
+
+
 
 
 **U can use both "/" and "!" 
