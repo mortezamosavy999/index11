@@ -224,14 +224,18 @@ function create_config( )
     sudo_users = {67255537,93213608,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[monsterTG 
+    about_text = [[monsterTG v2.0 (test/free)
 advance Administration bot based on yagop/telegram-bot
 
+
 @MonsterTG
+
+
 
 Admins
 @BLACK_HAT_ADMIN02 [Manager]
 @BLACK_HAT_ADMIN03 [Manager]
+
 
 Our channels
 @Blackhatchannel
@@ -242,42 +246,67 @@ Realm Commands:
 !creategroup [Name]
 Create a group
 
+-------------------
+
 !createrealm [Name]
 Create a realm
+
+-------------------
 
 !setname [Name]
 Set realm name
 
+-------------------
+
 !setabout [GroupID] [Text]
 Set a group's about text
+
+-------------------
 
 !setrules [GroupID] [Text]
 Set a group's rules
 
+-------------------
+
 !lock [GroupID] [setting]
 Lock a group's setting
+
+-------------------
 
 !unlock [GroupID] [setting]
 Unock a group's setting
 
+-------------------
+
 !wholist
 Get a list of members in group/realm
+
+-------------------
 
 !who
 Get a file of members in group/realm
 
+-------------------
+
 !type
 Get group type
+
+-------------------
 
 !kill chat [GroupID]
 Kick all memebers and delete group
 
+-------------------
+
 !kill realm [RealmID]
 Kick all members and delete realm
+
+-------------------
 
 !addadmin [id|username]
 Promote an admin by id OR username *Sudo only
 
+-------------------
 !removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
 
